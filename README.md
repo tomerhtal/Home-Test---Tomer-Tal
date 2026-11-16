@@ -19,7 +19,7 @@
 
 ## איך מריצים
 
-דרישות: [.NET 8 SDK](https://dotnet.microsoft.com/download/dotnet/8.0). ברירת המחדל היא מודל מדומה (Mock), ולכן לא צריך חשבון AWS.
+דרישות: [.NET 8 SDK ומעלה](https://dotnet.microsoft.com/download/dotnet/8.0). ברירת המחדל היא מודל מדומה (Mock), ולכן לא צריך חשבון AWS.
 
 פותחים חלון פקודות **בתיקייה הראשית של הפרויקט** (התיקייה שבה נמצא `README.md`) ומריצים:
 
