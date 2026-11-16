@@ -44,8 +44,6 @@ dotnet test tests/PortfolioAssistant.Tests
 
 **פתרון בעיות:** אם הבנייה נכשלת בגלל חבילת ה-AWS SDK (אין גישה ל-NuGet, או ש-Windows חוסם קובץ ממנה), אפשר לבנות את ה-API בלעדיה, כי המודל המדומה לא צריך אותה:
 
-אם Windows חוסם את ההרצה עם הודעה על Application Control ("בקרת אפליקציות חכמה"), זו מדיניות אבטחה של המחשב ולא בעיה בפרויקט. במקרה כזה אפשר להריץ ב-Codespaces.
-
 <div dir="ltr">
 
 ```bash
@@ -53,6 +51,9 @@ dotnet run --project src/PortfolioAssistant.Api -p:IncludeBedrock=false
 ```
 
 </div>
+
+אם Windows חוסם את ההרצה עם הודעה על Application Control ("בקרת אפליקציות חכמה"), זו מדיניות אבטחה של המחשב ולא בעיה בפרויקט. במקרה כזה אפשר להריץ ב-Codespaces.
+
 
 **נקודת הכניסה:** `POST /api/ask` עם `{ "customerId": "C-1042", "question": "..." }` והכותרת `X-User-Id` (במקום SSO).
 ב-UI בוחרים משתמש (pm-317 משויך ל-C-1042, pm-402 משויך ל-C-3000), לקוח ושאלה. ברשימה בצד יש את כל שאלות התרגיל: לחיצה על שאלה מעתיקה אותה לשורת השליחה, והשליחה בכפתור.
