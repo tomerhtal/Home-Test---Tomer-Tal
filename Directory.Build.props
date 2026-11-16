@@ -5,5 +5,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <LangVersion>latest</LangVersion>
     <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <!-- Run on a newer .NET (9, 10) when .NET 8 is not installed -->
+    <RollForward>Major</RollForward>
   </PropertyGroup>
 </Project>
