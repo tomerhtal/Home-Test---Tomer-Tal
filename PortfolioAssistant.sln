@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C01D0B33-37C9-43B2-8287-AA65C3F4439C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortfolioAssistant.Core", "src\PortfolioAssistant.Core\PortfolioAssistant.Core.csproj", "{66F5C97F-30DD-47AA-BA42-F4331B048AC8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortfolioAssistant.Bedrock", "src\PortfolioAssistant.Bedrock\PortfolioAssistant.Bedrock.csproj", "{24781088-6C5D-42DA-8B05-1542E6222986}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortfolioAssistant.Api", "src\PortfolioAssistant.Api\PortfolioAssistant.Api.csproj", "{55C13E67-EF4D-460B-9775-B3AF0CC3138A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{C62E2C47-4709-454F-B20C-E9094D8E9FDD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortfolioAssistant.Tests", "tests\PortfolioAssistant.Tests\PortfolioAssistant.Tests.csproj", "{F47EC44D-79FB-4F9B-A38D-E1CA604E6E7F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "eval", "eval", "{ABBFD4BD-E834-4FC4-92AD-EEF8C42E22F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortfolioAssistant.Eval", "eval\PortfolioAssistant.Eval\PortfolioAssistant.Eval.csproj", "{9425E739-9334-458C-954F-185784D01C82}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{66F5C97F-30DD-47AA-BA42-F4331B048AC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66F5C97F-30DD-47AA-BA42-F4331B048AC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66F5C97F-30DD-47AA-BA42-F4331B048AC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66F5C97F-30DD-47AA-BA42-F4331B048AC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24781088-6C5D-42DA-8B05-1542E6222986}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24781088-6C5D-42DA-8B05-1542E6222986}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24781088-6C5D-42DA-8B05-1542E6222986}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24781088-6C5D-42DA-8B05-1542E6222986}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55C13E67-EF4D-460B-9775-B3AF0CC3138A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55C13E67-EF4D-460B-9775-B3AF0CC3138A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55C13E67-EF4D-460B-9775-B3AF0CC3138A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55C13E67-EF4D-460B-9775-B3AF0CC3138A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F47EC44D-79FB-4F9B-A38D-E1CA604E6E7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F47EC44D-79FB-4F9B-A38D-E1CA604E6E7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F47EC44D-79FB-4F9B-A38D-E1CA604E6E7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F47EC44D-79FB-4F9B-A38D-E1CA604E6E7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9425E739-9334-458C-954F-185784D01C82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9425E739-9334-458C-954F-185784D01C82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9425E739-9334-458C-954F-185784D01C82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9425E739-9334-458C-954F-185784D01C82}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{66F5C97F-30DD-47AA-BA42-F4331B048AC8} = {C01D0B33-37C9-43B2-8287-AA65C3F4439C}
+		{24781088-6C5D-42DA-8B05-1542E6222986} = {C01D0B33-37C9-43B2-8287-AA65C3F4439C}
+		{55C13E67-EF4D-460B-9775-B3AF0CC3138A} = {C01D0B33-37C9-43B2-8287-AA65C3F4439C}
+		{F47EC44D-79FB-4F9B-A38D-E1CA604E6E7F} = {C62E2C47-4709-454F-B20C-E9094D8E9FDD}
+		{9425E739-9334-458C-954F-185784D01C82} = {ABBFD4BD-E834-4FC4-92AD-EEF8C42E22F6}
+	EndGlobalSection
+EndGlobal

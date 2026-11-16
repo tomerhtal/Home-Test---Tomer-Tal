@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>PortfolioAssistant.Eval</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\PortfolioAssistant.Core\PortfolioAssistant.Core.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="eval-cases.json" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="..\..\data\**\*" LinkBase="data" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+</Project>

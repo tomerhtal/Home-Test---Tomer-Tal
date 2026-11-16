@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- המתאם האמיתי ל-Amazon Bedrock. פרויקט נפרד, כדי שה-Core לא יהיה תלוי ב-AWS SDK. -->
+  <PropertyGroup>
+    <RootNamespace>PortfolioAssistant.Bedrock</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <!-- ExcludeAssets="analyzers": לא טוענים את כלי ניתוח הקוד שמגיע עם החבילה (Windows Smart App Control חוסם אותו, ואין בו צורך) -->
+    <PackageReference Include="AWSSDK.BedrockRuntime" Version="3.7.*" ExcludeAssets="analyzers" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PortfolioAssistant.Core\PortfolioAssistant.Core.csproj" />
+  </ItemGroup>
+</Project>
